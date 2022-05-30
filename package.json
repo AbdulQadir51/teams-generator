@@ -1,0 +1,19 @@
+{
+    "name": "profile-generator",
+    "version": "1.0.0",
+    "description": "genrerates team profile from command line",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "abdulqadiressa",
+    "license": "ISC",
+    "devDependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^28.1.0"
+    }
+}
