@@ -79,7 +79,7 @@ promptNewMembers = () => {
 
 promptManager = () => {
     inquirer.prompt(q_manager).then((a) => {
-        var m = new Manager(a.name, a.Id, a.email, a.officeNumber);
+        var m = new Manager(a.Id, a.name, a.email, a.officeNumber);
         myTeam.push(m);
         promptNewMembers();
 
@@ -96,7 +96,7 @@ promptManager = () => {
 
 promptEngineer = () => {
     inquirer.prompt(q_engineer).then((a) => {
-        var e = new Engineer(a.name, a.Id, a.email, a.githubUsername);
+        var e = new Engineer(a.Id, a.name, a.email, a.githubUsername);
         myTeam.push(e);
         promptNewMembers();
 
@@ -115,7 +115,7 @@ promptEngineer = () => {
 promptIntern = () => {
     inquirer.prompt(q_intern).then((a) => {
 
-        var i = new Intern(a.name, a.Id, a.email, a.school);
+        var i = new Intern(aa.Id, a.name, a.email, a.school);
         myTeam.push(i);
         promptNewMembers();
 

@@ -30,6 +30,7 @@ function generateHTML(members) {
 
     // Team Members
     for (let i = 0; i < members.length; i++) {
+        console.log(members[i].getName())
 
         // Team Members Name and Role
         markup += `<div class="col-lg-4">
@@ -45,6 +46,7 @@ function generateHTML(members) {
               <p class="text-muted">
                 @${members[i].getRole()} 
               </p>
+              <p>ID: ${members[i].getId()}</p>
             </div>`
 
 
