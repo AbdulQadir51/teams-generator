@@ -13,26 +13,26 @@ myTeam = [];
 
 // Manager questions
 const q_manager = [
-    { name: 'name', message: 'Please enter the team manager’s name' },
-    { name: 'Id', message: 'Please enter the manager’s Id' },
-    { name: 'email', message: 'Please enter the email address' },
-    { name: 'officeNumber', message: 'Please enter the office number' },
+    { name: 'name', message: 'Please enter the team manager’s name: ' },
+    { name: 'Id', message: 'Please enter the manager’s Id: ' },
+    { name: 'email', message: 'Please enter the email address: ' },
+    { name: 'officeNumber', message: 'Please enter the office number: ' },
 ];
 
 // Engineer questions
 const q_engineer = [
-    { name: 'name', message: 'Please enter the Engineer’s name' },
-    { name: 'Id', message: 'Please enter the Engineer’s Id' },
-    { name: 'email', message: 'Please enter the email address' },
-    { name: 'githubUsername', message: 'Please enter the Github username' },
+    { name: 'name', message: 'Please enter the Engineer’s name: ' },
+    { name: 'Id', message: 'Please enter the Engineer’s Id: ' },
+    { name: 'email', message: 'Please enter the email address: ' },
+    { name: 'githubUsername', message: 'Please enter the Github username: ' },
 ]
 
 // Intern questions
 const q_intern = [
-    { name: 'name', message: 'Please enter the Intern’s name' },
-    { name: 'Id', message: 'Please enter the Intern’s Id' },
-    { name: 'email', message: 'Please enter the email address' },
-    { name: 'school', message: 'Please enter the school name' },
+    { name: 'name', message: 'Please enter the Intern’s name: ' },
+    { name: 'Id', message: 'Please enter the Intern’s Id: ' },
+    { name: 'email', message: 'Please enter the email address: ' },
+    { name: 'school', message: 'Please enter the school name: ' },
 ]
 
 // Add new Team members
