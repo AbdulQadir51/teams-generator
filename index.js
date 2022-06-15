@@ -115,7 +115,7 @@ promptEngineer = () => {
 promptIntern = () => {
     inquirer.prompt(q_intern).then((a) => {
 
-        var i = new Intern(aa.Id, a.name, a.email, a.school);
+        var i = new Intern(a.Id, a.name, a.email, a.school);
         myTeam.push(i);
         promptNewMembers();
 
